@@ -1,0 +1,18 @@
+body {
+    font-family: $main-font;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 197px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #dd9d4c;
+    color: #fff;
+    border-radius: 4px;
+}

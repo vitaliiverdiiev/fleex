@@ -1,0 +1,56 @@
+.experience {
+  background-color: $secondary-bg-color;
+  &__inner {
+    height: 710px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  &__title {
+    max-width: 365px;
+    font-size: 43px;
+    line-height: 56px;
+  }
+
+  &__description {
+    max-width: 470px;
+    line-height: 27px;
+    margin-top: 31px;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+  }
+
+  .btn {
+    margin-top: 34px;
+  }
+
+  &__visual {
+    // background-image: url(../images/experience-visual.jpg);
+    // background-position: 0% 50%;
+    // // background-size: 800px 500px;
+    // background-repeat: no-repeat;
+    position: relative;
+    img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.block {
+  &__title {
+  }
+
+  &__description {
+  }
+}
+.btn {
+}
