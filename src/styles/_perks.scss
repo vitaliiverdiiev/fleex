@@ -1,0 +1,68 @@
+.perks {
+  padding: 120px 0;
+
+  &__title {
+    font-size: 50px;
+    line-height: 58px;
+    // margin: 110px 0 100px 120px;
+    margin-bottom: 100px;
+    width: 465px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+
+  &__item {
+  }
+}
+.section {
+  &__title {
+  }
+}
+.perk {
+  &__image {
+    width: 12%;
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.42px;
+    margin-bottom: 5px;
+  }
+
+  &__description {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.42px;
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .perks {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &__title {
+      width: 100%;
+      font-size: 35px;
+    }
+
+    &__items {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .perks {
+    &__title {
+      margin-bottom: 60px;
+    }
+  }
+}

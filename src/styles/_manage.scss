@@ -1,0 +1,37 @@
+.manage {
+  overflow: hidden;
+  background-color: rgba(143, 76, 23, 0.08);
+
+  &__visual {
+    display: flex;
+    align-items: center;
+    position: relative;
+    & img {
+      //   height: 60%;
+      //   width: 120%;
+      width: 800px;
+      height: 500px;
+      position: absolute;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .manage {
+    overflow: hidden;
+    padding: 120px 15px;
+    &__title {
+      margin-top: 8vh;
+    }
+    &__visual {
+      width: 120%;
+      height: 100%;
+      overflow: hidden;
+      & img {
+      }
+    }
+    &__content {
+      order: 2;
+    }
+  }
+}

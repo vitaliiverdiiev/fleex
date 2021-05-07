@@ -17,3 +17,19 @@
   &__link {
   }
 }
+
+@media screen and (max-width: $sm) {
+  .partners {
+    padding: 30px 0;
+    &__items {
+      height: unset;
+      flex-direction: column;
+    }
+    &__item {
+      & + & {
+        margin-left: unset;
+        margin-top: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.support {
+  overflow: hidden;
+  background-color: #f9f6f3;
+
+  &__inner {
+    grid-gap: 50px;
+  }
+
+  &__content {
+    order: 2;
+  }
+
+  &__visual {
+    position: relative;
+    & img {
+      position: absolute;
+      top: -70%;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .support {
+    overflow: hidden;
+    padding: 120px 15px;
+    &__title {
+      margin-top: 5vh;
+    }
+    &__visual {
+      width: 120%;
+      height: 100%;
+      //   overflow-y: hidden;
+      & img {
+        right: -3%;
+        top: -210%;
+      }
+    }
+    &__content {
+      order: 2;
+    }
+  }
+}

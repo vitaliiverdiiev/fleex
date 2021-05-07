@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": 300,
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 26
+  //   "editor.letterSpacing": 0.5
+}
